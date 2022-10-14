@@ -1,0 +1,34 @@
+<!Doctype HTML>
+<html>
+
+	<head>
+	
+		<meta charset = "UTF-8"/>
+		<meta name = "autor" content = "Iker Quijano"/>
+		<meta name = "descripción" content = ""/>
+		
+			<style>
+
+			</style>
+
+            <script>
+
+                function funcionPrueba(random){
+                    let random2 = Math.random();
+                    let suma = (random + random2) * 10;
+
+                    (suma > 10) ? window.alert("La suma aleatoria es mayor que 10") : window.alert("La suma aleatoria es menor que 10");
+
+                }   
+
+            </script>
+
+	</head>
+	
+	<body>
+
+		<div style = "position:absolute; top:0%; left:0%; background-color: red; width: 25%; height:25%;" onclick = "funcionPrueba(Math.random())"> Haz click para llamar a la función funcionPrueba() </div>
+
+	</body>
+	
+</html>	
